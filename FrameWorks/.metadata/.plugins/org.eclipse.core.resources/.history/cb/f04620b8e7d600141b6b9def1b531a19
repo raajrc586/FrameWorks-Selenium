@@ -1,0 +1,20 @@
+package com.actitime.functional;
+
+import org.testng.annotations.Test;
+
+import sun.rmi.log.LogInputStream;
+
+import com.actitime.coflict.ConflictLib;
+import com.actitime.pagerepo.Login;
+
+public class loginLogoutSC002 extends ConflictLib
+{
+	@Test
+	public void loginLogout()
+	{
+		Login l = new Login(driver);
+		l.login();
+		
+	}
+		
+}

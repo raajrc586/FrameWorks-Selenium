@@ -1,0 +1,17 @@
+package test;
+
+import org.testng.annotations.DataProvider;
+
+public class TEst1 
+{
+
+	@DataProvider
+	public void t1()
+	{
+		Object [][] obj = new Object[3][2];
+		obj[0][0] = "Ram";
+		
+	}
+	
+	
+}

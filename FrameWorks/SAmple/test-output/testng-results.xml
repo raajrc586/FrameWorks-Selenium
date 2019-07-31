@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="50" started-at="2015-04-02T14:39:07Z" finished-at="2015-04-02T14:39:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="50" started-at="2015-04-02T14:39:07Z" finished-at="2015-04-02T14:39:07Z">
+      <class name="test.TEst1">
+        <test-method status="PASS" signature="t2(java.lang.String, java.lang.String)[pri:0, instance:test.TEst1@14a7090]" name="t2" duration-ms="14" started-at="2015-04-02T20:09:07Z" data-provider="student" finished-at="2015-04-02T20:09:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ram]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t2 -->
+        <test-method status="PASS" signature="t2(java.lang.String, java.lang.String)[pri:0, instance:test.TEst1@14a7090]" name="t2" duration-ms="2" started-at="2015-04-02T20:09:07Z" data-provider="student" finished-at="2015-04-02T20:09:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[002]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t2 -->
+        <test-method status="PASS" signature="t2(java.lang.String, java.lang.String)[pri:0, instance:test.TEst1@14a7090]" name="t2" duration-ms="2" started-at="2015-04-02T20:09:07Z" data-provider="student" finished-at="2015-04-02T20:09:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kalyan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[003]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t2 -->
+        <test-method status="PASS" signature="t2(java.lang.String, java.lang.String)[pri:0, instance:test.TEst1@14a7090]" name="t2" duration-ms="3" started-at="2015-04-02T20:09:07Z" data-provider="student" finished-at="2015-04-02T20:09:07Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t2 -->
+        <test-method status="PASS" signature="t3()[pri:0, instance:test.TEst1@14a7090]" name="t3" duration-ms="2" started-at="2015-04-02T20:09:07Z" finished-at="2015-04-02T20:09:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t3 -->
+      </class> <!-- test.TEst1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

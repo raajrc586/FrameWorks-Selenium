@@ -1,0 +1,31 @@
+package com.actitime.pagerepo;
+
+
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import bsh.commands.dir;
+
+
+
+public class Login
+{
+	
+	WebDriver driver;
+	@FindBy(id="username")
+	WebElement user_name;
+	
+	public Login(WebDriver driver)
+	{
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
+	}
+	
+	
+	
+	
+}

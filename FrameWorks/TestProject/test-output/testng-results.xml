@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="33728" started-at="2015-03-31T14:35:48Z" finished-at="2015-03-31T14:36:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="33728" started-at="2015-03-31T14:35:48Z" finished-at="2015-03-31T14:36:22Z">
+      <class name="com.actitime.regression.CreateUserReg_SC_0001">
+        <test-method status="PASS" signature="precondition()[pri:0, instance:com.actitime.regression.CreateUserReg_SC_0001@18f23c]" name="precondition" is-config="true" duration-ms="17133" started-at="2015-03-31T20:05:48Z" finished-at="2015-03-31T20:06:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="PASS" signature="createUser_TC_001()[pri:0, instance:com.actitime.regression.CreateUserReg_SC_0001@18f23c]" name="createUser_TC_001" duration-ms="16021" started-at="2015-03-31T20:06:05Z" finished-at="2015-03-31T20:06:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser_TC_001 -->
+        <test-method status="PASS" signature="postcondition()[pri:0, instance:com.actitime.regression.CreateUserReg_SC_0001@18f23c]" name="postcondition" is-config="true" duration-ms="553" started-at="2015-03-31T20:06:21Z" finished-at="2015-03-31T20:06:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- com.actitime.regression.CreateUserReg_SC_0001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

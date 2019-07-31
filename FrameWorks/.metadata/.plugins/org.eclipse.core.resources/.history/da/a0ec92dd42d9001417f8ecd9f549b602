@@ -1,0 +1,22 @@
+package test;
+
+import org.testng.annotations.DataProvider;
+
+public class TEst1 
+{
+
+	@DataProvider
+	public Object t1()
+	{
+		Object [][] obj = new Object[3][2];
+		obj[0][0] = "Ram";
+		obj[0][1] = "001";
+		obj[1][0] = "Sam";
+		obj[1][1] = "002";
+		obj[2][0] = "Kalyan";
+		obj[2][1] = "003";
+		return obj;
+	}
+	
+	
+}

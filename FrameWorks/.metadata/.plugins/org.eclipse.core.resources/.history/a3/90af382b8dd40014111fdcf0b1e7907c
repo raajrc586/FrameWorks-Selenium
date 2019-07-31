@@ -1,0 +1,14 @@
+package com.actitime.functional;
+
+import org.testng.annotations.Test;
+
+import com.actitime.coflict.ConflictLib;
+
+public class LoginSC_001 extends ConflictLib
+{
+	@Test
+	public void loginTC_001()
+	{
+		
+	}
+}

@@ -1,0 +1,12 @@
+package com.actitime.functional;
+
+import org.testng.annotations.Test;
+
+public class LoginSC_001 
+{
+	@Test
+	public void loginTC_001()
+	{
+		
+	}
+}

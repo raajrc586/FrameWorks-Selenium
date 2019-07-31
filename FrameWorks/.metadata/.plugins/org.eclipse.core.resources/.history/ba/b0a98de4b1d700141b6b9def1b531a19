@@ -1,0 +1,17 @@
+package com.actitime.regression;
+
+import org.testng.annotations.Test;
+
+import com.actitime.coflict.ConflictLib;
+import com.actitime.pagerepo.Login;
+
+public class CreateUserReg_SC_0001 extends ConflictLib
+{
+	@Test
+	public void createUser_TC_001()
+	{
+		Login l =new Login(driver);
+		l.login();
+	}
+
+}

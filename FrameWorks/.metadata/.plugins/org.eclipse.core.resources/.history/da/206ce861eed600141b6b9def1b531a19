@@ -1,0 +1,10 @@
+package com.actitime.pagerepo;
+
+public class UsersPage extends BasePage
+{
+
+	
+	
+	
+	
+}

@@ -1,0 +1,14 @@
+package com.actitime.functional;
+
+import org.testng.annotations.Test;
+
+import com.actitime.coflict.ConflictLib;
+
+public class CreateUserSC003 extends ConflictLib 
+{
+	@Test 
+	public void createUserTC001()
+	{
+		
+	}
+}

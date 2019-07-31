@@ -1,0 +1,49 @@
+package com.actitime.pagerepo;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class UsersPage extends BasePage
+{
+
+	WebDriver driver;
+	@FindBy(xpath="//span[text()='User']")
+	private WebElement user_btn;
+	@FindBy(id="userDataLightBox_firstNameField")
+	private WebElement first_name;
+	@FindBy(id="userDataLightBox_lastNameField")
+	private WebElement last_name;
+	@FindBy(id="userDataLightBox_emailField")
+	private WebElement emailId;
+	@FindBy(id="userDataLightBox_usernameField")
+	private WebElement username;
+	@FindBy(id="userDataLightBox_passwordField")
+	private WebElement password;
+	@FindBy(id="userDataLightBox_passwordCopyField")
+	private WebElement rePassword;
+	@FindBy(id="userDataLightBox_commitBtn")
+	private WebElement create_user_btn;
+	
+	
+	
+	public UsersPage(WebDriver driver)
+	{
+		super(driver);
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
+	
+	
+	}
+	
+	public void createUsers()
+	{
+		user_btn.click();
+		
+	}
+	
+	
+	
+	
+}

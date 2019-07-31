@@ -1,0 +1,21 @@
+package com.actitime.pagerepo;
+
+
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+
+public class Login
+{
+	WebDriver driver = new FirefoxDriver();
+
+	
+	
+	
+	
+	
+	
+	
+}
